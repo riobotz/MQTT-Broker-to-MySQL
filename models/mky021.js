@@ -3,10 +3,10 @@ import Sequelize from "sequelize";
 
 // Configuring Sequelize
 const config = {
-  username: "fqjl2vn3juy57dg3",
-  password: "swrilguc2fanqlum",
-  database: "ofmtuee15e4rdq5f",
-  host: "aqx5w9yc5brambgl.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
+  username: "root",
+  password: 'root',
+  database: 'cms',
+  host: "localhost",
   dialect: "mysql",
   
 }
@@ -14,7 +14,8 @@ const config = {
 var sequelize = new Sequelize(config.database, config.username, config.password, {
   host: config.host,
   dialect: "mysql",
-  logging: false
+  logging: false,
+
 });
 
 
