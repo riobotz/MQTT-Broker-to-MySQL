@@ -1,4 +1,4 @@
-import MKY021 from "../models/mky021"
+import MKY021 from '../models/mky021.js';
 
 export default {
 

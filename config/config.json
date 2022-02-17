@@ -1,7 +1,7 @@
 {
   "username": "root",
   "password": "root",
-  "database": "mqtt",
+  "database": "python",
   "host": "localhost",
   "dialect": "mysql"
 }
