@@ -263,7 +263,10 @@ export default {
                     hour: timeConverter(new Date()).hour,
                     minute: timeConverter(new Date()).min,
                     second: timeConverter(new Date()).sec
-                }).then(() => {
+                },
+                {where: {
+                    _id: 1
+                }}).then(() => {
                     console.log('Rig03 Entry Added');
                     //console.log(BaseAnalytic1[3 + 8]);
                     console.log(JSONObj.pj);
