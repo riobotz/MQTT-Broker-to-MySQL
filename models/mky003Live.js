@@ -13,7 +13,7 @@ console.log(config.username, "username")
 const DataTypes = Sequelize.DataTypes;
 const literal = Sequelize.literal;
 
-const MKY03 = sequelize.define("MKY03", {
+const MKY03Live = sequelize.define("MKY03Live", {
 
   time: {
     type: DataTypes.BIGINT,
@@ -833,4 +833,4 @@ MastDigOutputs1: {
   }
 );
 
-export default MKY03;
+export default MKY03Live;
