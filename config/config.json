@@ -1,7 +1,7 @@
 {
   "username": "root",
-  "password": "Sm0thering.",
-  "database": "drillmonitoring",
+  "password": "root",
+  "database": "python",
   "host": "localhost",
   "dialect": "mysql"
 }
