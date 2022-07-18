@@ -263,6 +263,7 @@ export default {
                     hour: timeConverter(new Date()).hour,
                     minute: timeConverter(new Date()).min,
                     second: timeConverter(new Date()).sec
+<<<<<<< HEAD
                 }).then((result) => {
                     if (result['0'] === 0) {
                         MKY03Live.create({
@@ -469,6 +470,16 @@ export default {
                             .then(console.log('Entry Added'))
                     }
 
+=======
+                },
+                {where: {
+                    _id: 1
+                }}).then(() => {
+                    console.log('Rig03 Entry Added');
+                    //console.log(BaseAnalytic1[3 + 8]);
+                    console.log(JSONObj.pj);
+                    //console.log(EngineFuelRateLpH);
+>>>>>>> c117bb5564583bdd779ff8a8df2c96cb24dec322
 
                 })
 

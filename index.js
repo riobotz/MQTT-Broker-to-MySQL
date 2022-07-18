@@ -11,6 +11,7 @@ import db from "./models/index.js";
 const syncModels = async () => {
     // db.MKY021.sync();
     db.MKY08.sync();
+    db.MKY03Live.sync();
 }
 
 // mosquitto_pub --cafile ca.crt --cert client.crt --key client.key -p 8883 -t /chriskl -m "de"
